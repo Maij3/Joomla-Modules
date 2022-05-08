@@ -1,0 +1,32 @@
+.scroll-style-1 {
+	overflow-x: hidden;
+	padding-right: 15px; //For mobile views
+	&::-webkit-scrollbar {
+		width: 7px;
+		border-radius: 7px;
+        background-color: rgba(15, 89, 31, 0.5); 
+	}
+	&::-webkit-scrollbar-thumb {
+	    background-color: #0f591f;
+		border-radius: 7px;
+	}
+}
+
+.scroll-style-2 {
+	.scroll-style-1;
+	&::-webkit-scrollbar {
+		width: 3px;
+	}
+}
+.scroll-style-3 {
+	.scroll-style-1;
+	&::-webkit-scrollbar {
+		background-color: #ffffff52;
+	}
+	&::-webkit-scrollbar-thumb {
+		background-color: white;
+		border-radius: 0;
+	}
+}
+
+

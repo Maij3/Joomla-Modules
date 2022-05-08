@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params" type="subform">
+        <fieldset name="jnfields" label="Jn Fields">
+            <field 
+				type="editor"
+				name="precontent"
+				label="HTML Pre Content"
+				editor="codemirror"
+				filter="raw"
+    		/>
+            <field
+				name="items"
+				label="Items"
+				type="subform"
+				formsource="plugins/content/jnfields/custom-forms/subform-mod-banner-slider.xml"
+				multiple="true"
+				layout="joomla.form.field.subform.repeatable" 
+			/>
+            <field 
+				type="editor"
+				name="postcontent"
+				label="HTML Post Content"
+				editor="codemirror"
+				filter="raw"
+    		/>
+        </fieldset>
+    </fields>
+</form>

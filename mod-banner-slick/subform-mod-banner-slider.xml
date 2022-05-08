@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <field 
+		type="editor"
+		name="htmlnew"
+		label="HTML Content"
+		editor="codemirror"
+		filter="raw"
+	/>
+</form>

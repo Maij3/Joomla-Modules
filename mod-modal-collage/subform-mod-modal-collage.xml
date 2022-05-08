@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<field
+		type="media"
+		name="background"
+		label="Background Image"
+	/>
+	
+	<field
+		type="media"
+		name="popupImage"
+		label="Popup Image"
+	/>
+	
+	<field 
+    	type="text"
+	    name="title"
+	    label="Title" 
+    />
+    <field 
+    	type="editor"
+	    name="text"
+	    label="Content"
+	    filter="safehtml"
+    />
+    <field 
+    	type="url"
+	    name="alternativeLink"
+	    label="Alternative Link"
+    />
+</form>

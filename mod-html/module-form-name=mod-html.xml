@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="jnfields" label="Jn Fields">
+			<field name= "htmlContent"
+				label= "HTML content"
+				type= "editor"
+				editor= "codemirror"
+				filter= "raw"		
+			/>
+		</fieldset>
+	</fields>
+</form>

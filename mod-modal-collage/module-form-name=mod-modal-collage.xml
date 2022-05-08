@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="jnfields" label="Jn Fields">
+
+            <field
+                name="preHTMLContent"
+                type="editor"
+                editor="codemirror"
+                filter="safehtml"
+                label="Pre-HTML content"
+            />
+
+			<field 
+                name="items"     
+                type="subform"     
+                formsource="plugins/content/jnfields/custom-forms/subform-mod-modal-collage.xml"
+                multiple="true"       
+                label="Add items left"     
+                description="click on the (+) sign to add multiple fields and on the (-) sign to delete them"       
+                layout="joomla.form.field.subform.repeatable-table"    
+            />
+            
+        <field
+                name="postHTMLContent"
+                type="editor"
+                editor="codemirror"
+                filter="safehtml"
+                label="Post-HTML content"
+        />
+
+		</fieldset>
+	</fields>
+</form>

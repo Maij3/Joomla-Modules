@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+	<field
+
+		name="htmlContent" 
+
+		label="HTML content" 
+
+		type="editor"
+
+		editor="codemirror"
+
+		filter="raw"
+
+	/>
+
+</form>

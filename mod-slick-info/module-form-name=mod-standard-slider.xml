@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+	<fields name="params">
+
+		<fieldset name="jnfields" label="Jn Fields">
+
+			<field
+				name="foreContent"
+				label="HTML Pre content" 
+				type="editor"
+				editor="codemirror"
+				filter="raw"	
+			
+			/>
+
+			<field 
+
+				name="items"
+
+				label="Items"
+
+				type="subform"
+
+			    formsource="plugins/content/jnfields/custom-forms/subform-mod-standard-slider.xml" 
+
+			    multiple="true"
+
+			/>
+
+			<field
+				name="afterContent"
+				label="HTML After content" 
+				type="editor"
+				editor="codemirror"
+				filter="raw"	
+			/>
+
+		</fieldset>
+
+		
+
+	</fields>
+
+</form>
